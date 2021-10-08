@@ -112,8 +112,6 @@ ul {
   margin-bottom: 465px;
 }
 
-
-
 .toptitle {
   background-color: #F2F6FA;
   color: #2E363E;
@@ -153,6 +151,7 @@ ul {
 }
 
 .button {
+  display: block;
   background-color: #FED84C;
   color: #2E363E;
   font-size: 18px;
@@ -162,12 +161,40 @@ ul {
   border: 1px solid #FED84C;
   border-radius: 8px;
   padding: 30px 50px;
+  position: relative;
+  transition: all .35s;
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+}
+
+.button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button:hover:after {
+  width: 100%;
 }
 
 .button__header {}
 
 .header__subtext {
-  width: 200px;
+  width: 180px;
   font-size: 15px;
   line-height: 160%;
   font-weight: 400;
