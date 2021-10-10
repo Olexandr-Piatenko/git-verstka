@@ -115,7 +115,7 @@ ul {
   margin-bottom: 465px;
 }
 
-.toptitle {
+.content__toptitle {
   background-color: #F2F6FA;
   color: #2E363E;
   font-size: 11px;
@@ -131,7 +131,7 @@ ul {
 
 .header__toptitle {}
 
-.header__title {
+.content__title {
   font-size: 48px;
   line-height: 125%;
   font-weight: 700;
@@ -139,7 +139,7 @@ ul {
   margin-bottom: 25px;
 }
 
-.header__text {
+.content__text {
   font-size: 24px;
   line-height: 143%;
   font-weight: 400;
@@ -306,3 +306,87 @@ ul {
   right: 0;
   bottom: 750px;
 }
+
+.benefits {
+  position: relative;
+}
+
+.benefits__top {
+  background-image: url(../images/content-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 1352px;
+}
+
+.content {}
+
+.benefitstop__wrapper {
+  display: flex;
+  justify-content: flex-end
+}
+
+.benefitstop__content {
+  padding-top: 445px;
+}
+
+.benefitstop__toptitle {}
+
+.content__toptitle {}
+
+.benefitstop__title {
+  max-width: 500px;
+}
+
+.content__title {}
+
+.benefitstop__text {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 143%;
+  max-width: 500px;
+  padding: 24px 0 40px;
+}
+
+.content__text {}
+
+.button {}
+
+.benefitstop__header {}
+
+.benefitsbottom__wrapper {
+  display: flex;
+  justify-content: flex-end
+}
+
+.benefits__bottom {}
+
+.benefitsbottom__content {
+  margin-top: 107px;
+  color: #2E363E;
+}
+
+.benefitsbottom__toptitle {}
+
+.benefitsbottom__title {}
+
+.benefitsbottom__text {}
+
+.benefits__list {
+  padding-left: 22px;
+}
+
+.benefits__item {}
+
+.benefits__item::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #5D6AFB;
+  left: 50px;
+  margin-top: 10px;
+}
+
+.benefitsbottom__header {}
