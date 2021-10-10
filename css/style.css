@@ -8,6 +8,7 @@ body {
   line-height: 150%;
   font-weight: regular;
   color: #fff;
+  /* background-color: mediumblue; */
 }
 
 a {
@@ -68,15 +69,17 @@ ul {
 .logo__link {}
 
 .header__contacts {
+  display: flex;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
+  align-items: center;
 }
 
 .header__contact-maps {
   display: inline-flex;
   margin-right: 80px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .header__contact-tel {
@@ -84,7 +87,7 @@ ul {
   font-size: 13px;
   line-height: 150%;
   text-align: left;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .icon {
@@ -199,4 +202,107 @@ ul {
   line-height: 160%;
   font-weight: 400;
   padding-left: 20px;
+}
+
+.products {
+  position: relative;
+}
+
+.products__inner {}
+
+.products__wrapper {
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.products__page-title {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 500;
+  color: #2E363E;
+  text-align: center;
+}
+
+.products__item {
+  color: #2E363E;
+}
+
+.products__images {}
+
+.products__img {}
+
+.products__block {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 90px 50px 44px;
+  text-align: left;
+}
+
+.products__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143%;
+  margin-bottom: 15px;
+}
+
+.products__title-strong {}
+
+.products__text {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.products__subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  padding: 24px 0 14px;
+}
+
+.button {}
+
+.button__products {
+  display: block;
+  width: 165px;
+  height: 70px;
+  background-color: #FED84C;
+  color: #2E363E;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 152%;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #FED84C;
+  border-radius: 8px;
+  padding: 19px 39px;
+  position: relative;
+  transition: all .35s;
+}
+
+.button__products span {}
+
+.button__products:hover {
+  color: #000;
+  background-color: #F3C51B;
+  border: 1px solid #000;
+}
+
+.products__berryleft {
+  position: absolute;
+  left: -85px;
+  top: 220px;
+}
+
+.products__leafleft {
+  position: absolute;
+  left: -61px;
+  bottom: 501px;
+}
+
+.products__leafright {
+  position: absolute;
+  right: 0;
+  bottom: 750px;
 }
