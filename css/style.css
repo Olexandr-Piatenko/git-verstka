@@ -217,7 +217,7 @@ ul {
   grid-gap: 20px;
 }
 
-.products__page-title {
+.title {
   font-size: 48px;
   line-height: 60px;
   font-weight: 500;
@@ -390,3 +390,125 @@ ul {
 }
 
 .benefitsbottom__header {}
+
+.reviews {
+  background-image: url(../images/reviews-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 1505px;
+}
+
+.title {
+  padding-top: 300px;
+  color: #fff;
+}
+
+.reviews__title {
+  margin-bottom: 80px;
+}
+
+.reviews__inner {}
+
+.slick-initialized {}
+
+.slick-slider {}
+
+.slick-dotted {}
+
+.slick-list {}
+
+.draggable {}
+
+.reviews__item {
+  height: 615px;
+  width: 100%;
+  background-color: #fff;
+  color: #2E363E;
+}
+
+.reviews__item-box {}
+
+.box__inner {
+  display: flex;
+  padding: 70px 143px;
+  align-items: center;
+}
+
+.box__content {
+  position: relative;
+}
+
+.box__content::before {
+  content: "";
+  display: block;
+  background-image: url(../images/quotes.png);
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  margin-top: -50px;
+}
+
+.box__title {
+  font-size: 30px;
+  font-weight: 500px;
+  line-height: 143%;
+  margin-bottom: 25px;
+}
+
+.box__text {
+  font-size: 15px;
+  line-height: 170%;
+  max-width: 430px;
+  margin-bottom: 25px;
+}
+
+.reviews__link {
+  font-size: 14px;
+  line-height: 150%;
+  color: #4A94FF;
+  border-bottom: 1px dashed #4A94FF;
+}
+
+.box__images {
+  margin-left: 55px;
+  text-align: center;
+}
+
+.box__images-img {}
+
+.box__images-name {
+  font-size: 21px;
+  line-height: 143%;
+  margin: 30px 0 10px;
+  font-weight: 500;
+}
+
+.box__images-city {
+  font-size: 16px;
+  line-height: 170%;
+  color: #A6AEB6;
+}
+
+.reviews .slick-arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.tablist {}
+
+.presentation {}
+
+.slick-btn {
+  
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 43%;
+  bottom: -135px;
+}
+
+.slick-next {
+  margin-left: 90px;
+}
