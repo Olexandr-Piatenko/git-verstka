@@ -399,13 +399,12 @@ ul {
   height: 1505px;
 }
 
-.title {
-  padding-top: 300px;
-  color: #fff;
-}
+.title {}
 
 .reviews__title {
   margin-bottom: 80px;
+  padding-top: 300px;
+  color: #fff;
 }
 
 .reviews__inner {}
@@ -500,7 +499,6 @@ ul {
 .presentation {}
 
 .slick-btn {
-  
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -511,4 +509,35 @@ ul {
 
 .slick-next {
   margin-left: 90px;
+}
+
+.gallery {
+  display: block;
+}
+
+.gallery__title {}
+
+.gallery__link {
+  font-size: 24px;
+  line-height: 143%;
+  color: #2E363E;
+  text-align: center;
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.gallery__inner {}
+
+.gallery__item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px:
+}
+
+.gallery__item-link {}
+
+.gallery__item-img {
+  width: 100%;
+  padding: 0 5px;
 }
