@@ -182,7 +182,7 @@ ul {
   height: 100%;
   border: none;
   border-radius: 8px;
-  background: #ff003b;
+  background: #E6413E;
   transition: all .35s;
 }
 
@@ -540,4 +540,102 @@ ul {
 .gallery__item-img {
   width: 100%;
   padding: 0 5px;
+}
+
+.footer {
+  background-image: url(../images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 285px 0 80px;
+}
+
+.footer__inner {}
+
+.footer__form {
+  background-color: #fff;
+  color: #2E363E;
+  min-height: 245px;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 36px;
+  line-height: 133%;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+.footer__text {
+  font-size: 21px;
+  line-height: 143%;
+  font-weight: 400;
+  padding: 15px 0 35px;
+}
+
+.footer__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+input {
+  background: url(../images/Phone.png) no-repeat;
+  background-position: 10% 50%;
+}
+
+.footer__input {
+  position: relative;
+  background-color: #F2F6FA;
+  width: 380px;
+  height: 85px;
+  color: #2E363E;
+  border: 1px solid #F2F6FA;
+  margin-bottom: 12px;
+  display: block;
+  font-size: 15px;
+  padding: 0 15px;
+  margin-right: 20px;
+  padding-left: 70px;
+}
+
+.button__footer {
+  width: 380px;
+  height: 85px;
+  padding: 29px 0;
+  margin-right: 20px;
+}
+
+.footer__conditions {
+  padding-bottom: 70px;
+  font-size: 11px;
+  line-height: 130%;
+  color: #7E868E;
+}
+
+.footer__conditions-link {
+  border-bottom: 1px solid #7E868E;
+}
+
+.footer__link {
+  display: flex;
+  font-size: 12px;
+  line-height: 150%;
+  list-style: none;
+  color: #7E868E;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0 20px;
+}
+
+.footer__link-list:nth-child(2) {
+  padding: 0 45px;
+}
+
+.footer__bottom {
+  color: #7E868E;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
 }
